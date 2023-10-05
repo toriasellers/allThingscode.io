@@ -1,0 +1,16 @@
+.typewrite {
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+    color: #740068;
+    pointer-events: none;
+    text-align: left;
+    margin-left: -12px;
+  }
+  
+.typewrite > .wrap {
+    border-right: none;
+    display: inline-block;
+  }
+  

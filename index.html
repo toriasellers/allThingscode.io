@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project: Code News</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/p.css"/>
+  </head>
+  <body>
+    <div class="to-top">
+      <div id="to-top-image"></div>
+    </div>
+    <header>
+      <h1>allThings(c)ode</h1>
+      <p >
+        <a href="" class="typewrite" data-period="2000" data-type='["This is the place!", "Make yourself comfortable", "You can do it!", "A little further...." ]'>
+          <span class="wrap"></span>
+        </a>
+      </p>
+      <h2>Filter</h2>
+      <form method="get" autocomplete="on">
+        <input
+          type="text"
+          name="keyword-search"
+          id="keyword-search"
+          placeholder="keyword"
+        />
+        <h2>Sort by</h2>
+        <select name="sort-by" id="sort-by">
+          <option value="published-at" selected="selected">publishing date</option>
+          <option value="popularity">popularity</option>
+        </select>
+        <h2>Change language</h2>
+        <select name="set-language" id="set-language">
+          <option value="en" selected="selected">english</option>
+          <option value="de">german</option>
+          <option value="es">spanish</option>
+        </select>
+        <input type="submit" id="keyword-search-btn" value="Filter" />
+      </form>
+      <h2>Articles: <span id="article-count-num"></span></h2>
+    </header>
+    <main></main>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/animation.js"> </script>
+    <!-- <py-script src="./assets/python/main.py"> </py-script> -->
+  </body>
+</html>
